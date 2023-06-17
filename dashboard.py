@@ -5,9 +5,7 @@ import seaborn as sns
 import plotly.express as px
 import plotly.graph_objects as go
 from wordcloud import WordCloud
-import geopandas as gpd
-import json
-import urllib.request
+
 
 # Load the dataset from the Excel file
 excel_file = pd.ExcelFile('dummydataset.xlsx')
